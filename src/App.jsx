@@ -1,6 +1,7 @@
 import './App.css'
 import Navbar from './components/header/Navbar'
 import Herosection from './components/hero section/Herosection'
+import Marquee from './components/marquee/Marquee'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       < Navbar />
       < Herosection />
+      < Marquee />
     </>
   )
 }

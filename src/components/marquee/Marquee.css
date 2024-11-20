@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    margin: 0;
+}
+.marquee-box{
+    border-radius: 25px 25px 0 0;
+}
+
+.marquee-text{
+    display: flex;
+    white-space: nowrap;    
+    font-size: 306px;
+    letter-spacing: -9px;
+    word-spacing: 5px;
+    font-weight: 600;
+    overflow-x: hidden; 
+}
+
+.marquee-text>h3 {
+  margin-right: 20px;   
+}
+
+.top-line{
+    border: 1px solid;
+    opacity: 0.7;
+    position: absolute;
+    width: 100%;
+    top: 63px;
+}
+.bottom-line{
+    border: 1px solid;
+    width: 100%;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 177px;
+}
