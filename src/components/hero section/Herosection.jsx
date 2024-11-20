@@ -3,7 +3,7 @@ import './Herosection.css'
 
 function Herosection() {
     return (
-        <main className=' w-full'>
+        <main className='w-full'>
             <div className='hero-section pt-[5rem] pl-[3rem] font-semibold leading-none uppercase'>
                 <div className='font-grotesk3'>
                     <h1 className='mb-[-1rem]'>We create</h1>
