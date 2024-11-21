@@ -24,3 +24,17 @@
 .button-87 .fa-solid{
     font-size: 20px;
 }
+.pill{
+    padding: 7px 13px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid;
+    cursor: pointer;
+}
+.pill:hover{
+  background-color: #aaa;
+  color: #212121;
+}

@@ -16,10 +16,10 @@ function Herosection() {
 
             <div className='flex w-full justify-between px-[5rem] mt-5'>
                 <p>For public and private companies</p>
-                <p>From the first pitch to IPO</p>
+                <p>From Startups to industry giants</p>
                 <div className='flex gap-1 hero-buttons'>
                     <button className='hero-btn'>
-                        <p>Start the project</p>
+                        <p>Start a project</p>
                     </button>
                     <button className='hero-btn-i'>
                         <i className="rotate-45 fa-solid fa-arrow-up-long"></i>

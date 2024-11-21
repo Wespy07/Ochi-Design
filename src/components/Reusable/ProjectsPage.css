@@ -1,0 +1,25 @@
+.gotham-btn {
+    border: none;
+    padding: 3px 12px;
+    border-radius: 20px;
+    outline: none; 
+    cursor: pointer;
+    transition: 0.3s;
+    background-size: 200% auto;
+    color: rgba(255, 255, 255, 0.863);
+    /* background-image: linear-gradient(45deg, #371b44 0%, #773a94 51%, #381b46 100%); */
+    background-image: linear-gradient(45deg, #2e2e2e 0%, #2c2c2c 51%, #732b81 100%);
+}
+
+.gotham-btn:hover{
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+.gotham-image{
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.gotham-image:hover{
+    transform: scale(1.05);
+}

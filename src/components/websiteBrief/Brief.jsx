@@ -16,12 +16,12 @@ function Brief() {
                     <p>What you can expect:</p>
                 </div>
                 <div className='w-1/2 flex'>
-                    <div className='w-1/2 pr-10'>
+                    <div className='w-1/2 pr-10 tracking-tight'>
                         <p>
-                            We create tailored presentations to help you persuade your colleagues, clients, or investors. Whether it’s live or digital, delivered for one or a hundred people.
+                            We craft <u>stunning frontends</u> that don’t just turn heads—they leave jaws on the floor. Whether it’s dazzling designs for a solo startup or a full-scale web presence for your empire, we got you covered.
                         </p>
                         <p className='mt-5'>
-                            We believe the mix of strategy and design (with a bit of coffee) is what makes your message clear, convincing, and captivating.
+                            Powered by holy waters of the Himalayas and amazing sleep disorders, we create frontend so smooth they could glide like Keanu Reeves dodging bullets in 'The Matrix'.
                         </p>
                     </div>
                     <div className='w-1/2 flex items-end justify-center'>
@@ -42,17 +42,17 @@ function Brief() {
 
             <div className='border-[1px] opacity-[0.5] w-full border-[#212121]'></div>
 
-            <div className='w-full px-12 flex justify-evenly'>
+            <div className='w-full px-10 flex justify-evenly'>
                 <div>
                     <h4 className='text-[58px]'>Our approach:</h4>
-                    < Button />
+                    < Button text='Read more' />
 
                 </div>
 
-                <div className='py-5'>
+                <div className='pb-5'>
                     <div className='rounded-xl overflow-hidden h-[470px] w-[660px] flex items-center justify-center'>
 
-                        <img src="/brief.png" />
+                        <img className='rounded-2xl' src="./bnw.jpg" />
                     </div>
                 </div>
 
