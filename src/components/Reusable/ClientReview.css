@@ -1,0 +1,27 @@
+.collapsible-content {
+    overflow: hidden;
+    max-height: 0;
+    transition: all 0.4s linear;
+}
+
+.collapsible-content.expanded {
+    max-height: 300px;
+    opacity: 1;
+}
+
+.services-container {
+    transition: opacity 0.4s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.services-container.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.placeholder {
+    min-height: 30px;
+}
