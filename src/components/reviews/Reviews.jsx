@@ -8,11 +8,14 @@ function Reviews() {
             <h2 className='px-12 pt-16 pb-2'>Clients Reviews</h2>
             <div>
                 < ClientReview 
-                company='Baba ka Dhaba' username='John Doe' service1='pure veg restraurant' src='./reviewers/1.png' 
-                desc='They were transparent about the time and the stages of the project. The end product is high quality, and I feel confident about how they were handholding the client through the process. I feel like I can introduce them to someone who needs to put a sales deck together from scratch, and they would be able to handhold the client experience from 0 to 100 very effectively from story to design. 5/5' />
+                company='Baba ka Dhaba' username='Baba Doe' service1='pure veg restraurant' src='./reviewers/baba.jpg' 
+                desc='Pura project ekdum mast handle kiya inhone. Har step pe clear bata diya, ‘Ab yeh hoga, ab woh hoga.’ Final frontend dekh ke laga ki yeh toh Shahrukh ki movie jaisa perfect hai—na zyada, na kam, ekdum fit. Agar kisi ko zero se shuru karke ek dhamakedar website banani ho, toh main toh inse hi recommend karunga. Sab kuch smooth aur tension-free tha. 5/5!' />
                 < ClientReview 
-                company='Bhanupratap Bus Service' username='Jonah Doe' service1='travel agency' src='./reviewers/2.png' 
-                desc='Ihor and his team tackled the projects with great professionalism and creativity. They understood our brand value and turned this into excellent slide designs. The process was seamless and very effective, so we decided to roll this out across all our presentation decks. Furthermore, their understanding, professionalism, and creativity have secured a continued partnership.' />
+                company='Bhanupratap Bus Service' username='Bhanu Doe' service1='travel agency' src='./reviewers/bhanu.jpg' 
+                desc="Inka kaam ekdum 'Wow!' hai. Jaise mere content ka tadka lagake pura biryani bana diya. Jo website ka frontend design banaya, woh itna badhiya hai ki har page dekhke lagta hai, 'Yeh toh award-winning hai!' Client ko samjhaane ka style bhi mast hai—‘Chinta mat karo, sab hum dekh lenge.’ Ab toh main inko apne sab doston ko recommend kar raha hoon. 5/5, boss!" />
+                < ClientReview 
+                company='Laxmi Chit Fund' username='Anuradha Doe' service1='Investment Firm' src='./reviewers/laxmi.jpg' 
+                desc="Inka frontend ka kaam dekh ke laga ki yeh log NASA ke engineer se kam nahi hai. Sab kuch ekdum precise aur classy. Har color, har animation, sab jagah ekdum 'Dil Dhadakne Do' vibes. Mujhe sab kuch samjha ke kiya, lagta tha ki mere hi team ka hissa hai. Agar kisi ko killer frontend chahiye, toh main inse hi banwaunga. Inka kaam ekdum paisa vasool hai. 5/5!" />
             </div>
         </div>
     )

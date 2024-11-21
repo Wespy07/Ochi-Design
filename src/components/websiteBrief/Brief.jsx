@@ -52,7 +52,7 @@ function Brief() {
                 <div className='pb-5'>
                     <div className='rounded-xl overflow-hidden h-[470px] w-[660px] flex items-center justify-center'>
 
-                        <img className='rounded-2xl' src="./bnw.jpg" />
+                        <img className='rounded-2xl' src="./perfection.jpg" />
                     </div>
                 </div>
 

@@ -17,7 +17,7 @@ function ClientReview({company, username, service1, src, desc}) {
                     <p>{username}</p>
                     <div className='my-7'>
                         <img className='my-5 h-[111px] rounded-lg' src={src} />
-                        <p className='tracking-tighter leading-6'>{desc}</p>
+                        <p className='tracking-tighter leading-[22px] text-[16px]'>{desc}</p>
                     </div>
                 </div>
                 <div className='w-[8%] flex flex-col items-end'>
