@@ -10,7 +10,7 @@ function ProjectsPage(props) {
                     <i className="fa-solid fa-circle text-[10px]"></i>
                     <p>{props.title}</p>
                 </div>
-                <div className='h-[611px] mt-3 bg-[#141414] rounded-xl overflow-hidden'>
+                <div className='h-[550px] mt-3 bg-[#141414] rounded-xl overflow-hidden'>
                     <img className='gotham-image h-full' src={props.image} alt={props.alt} />
                 </div>
                 <div className='mt-3 flex gap-2'>

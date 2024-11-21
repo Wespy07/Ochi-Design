@@ -1,5 +1,4 @@
 import React from 'react'
-import './ClientReview.css'
 import Pill from './Pill'
 
 function ClientReview({company, username, service1, src, desc}) {

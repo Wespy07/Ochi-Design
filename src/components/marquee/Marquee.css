@@ -30,12 +30,12 @@ h3{
     opacity: 0.4;
     position: absolute;
     width: 100%;
-    top: 55px;
+    top: 100px;
 }
 .bottom-line{
     border: 1px solid;
     width: 100%;
     opacity: 0.4;
     position: absolute;
-    bottom: 167px;
+    bottom: 99px;
 }
