@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './Reviews.css';
 import ClientReview from '../Reusable/ClientReview';
 import reviewsData from './reviewsData';
 
