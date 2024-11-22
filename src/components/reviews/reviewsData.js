@@ -19,6 +19,20 @@ const reviewsData = [
         service1: 'Investment Firm',
         src: './reviewers/laxmi.jpg',
         desc: "Inka frontend ka kaam dekh ke laga ki yeh log NASA ke engineer se kam nahi hai. Sab kuch ekdum precise aur classy. Har color, har animation, sab jagah ekdum 'Dil Dhadakne Do' vibes. Mujhe sab kuch samjha ke kiya, lagta tha ki mere hi team ka hissa hai. Agar kisi ko killer frontend chahiye, toh main inse hi banwaunga. Inka kaam ekdum paisa vasool hai. 5/5!"
+    },
+    {
+        company: 'Kachra Seth Recyclers',
+        username: 'Kachra Doe',
+        service1: 'Waste Management',
+        src: './reviewers/kachra.jpg',
+        desc: "Jo logo ko kachra lagta tha, usko inhone gold bana diya! Website ka frontend dekh ke sab impressed ho gaye. Har page itna clean aur organized tha ki laga Google ke HQ ka design hai. Ekdum relatable aur eco-friendly vibes diye. Koi bhi website banwani ho, toh inhi se karwao. Full-on paisa vasool! 5/5!"
+    },
+    {
+        company: 'Munna Fitness Club',
+        username: 'Ballu Doe',
+        service1: 'Fitness Center',
+        src: './reviewers/ballu.png',
+        desc: "Arre inhone toh mere gym ka frontend ekdum muscle bana diya! Jo energy chahiye thi, woh har page pe dikh rahi thi. ‘Kahaal apun sambhal lega’ jaisa feel diya. Jab dekha toh bas ek hi cheez bola, ‘Apun ko toh tension nahi lene ka, tu best hai!’ Agar frontend ka Olympic hota, toh gold inka pakka. 5/5, bhaari kaam!"
     }
 ];
 

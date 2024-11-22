@@ -12,7 +12,8 @@ function Reviews() {
 
 
     return (
-        <div className="reviews-container">
+        <div className="reviews-container py-16">
+            <h2 class="px-12 pb-2 text-[58px]">Clients Reviews</h2>
             {reviewsData.map((review, index) => (
                 <ClientReview
                     key={index}

@@ -110,7 +110,6 @@ function ClientReview({ company, username, service1, src, desc, isExpanded, togg
                         <img
                             className="my-5 h-[111px] rounded-lg"
                             src={src}
-                            alt={username}
                         />
                         <p className="tracking-tighter leading-[22px] text-[16px]">
                             {desc}
