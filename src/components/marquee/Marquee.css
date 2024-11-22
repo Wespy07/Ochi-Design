@@ -11,7 +11,18 @@ h3{
     border-radius: 25px 25px 0 0;
 }
 
-.marquee-text{
+.marquee-content{
+    position: relative;
+    display: flex;
+    gap: 5px;
+    font-size: 306px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    letter-spacing: -10px;
+    font-weight: 500;
+}
+
+/* .marquee-text{
     display: flex;
     white-space: nowrap;    
     font-size: 306px;
@@ -23,19 +34,19 @@ h3{
 
 .marquee-text>h3 {
   margin-right: 20px;   
-}
+} */
 
 .top-line{
     border: 1px solid;
     opacity: 0.4;
-    position: absolute;
+    position: relative;
     width: 100%;
-    top: 100px;
+    top: 50px;
 }
 .bottom-line{
     border: 1px solid;
     width: 100%;
     opacity: 0.4;
-    position: absolute;
-    bottom: 99px;
+    position: relative;
+    bottom: 165px;
 }

@@ -11,7 +11,7 @@ function Dropdown({ dropdown, setDropdown }) {
     return (
         <div className='bg-[#161616]'>
             <nav>
-                <div className='bg-[#161616] flex items-center justify-between px-[4rem] pt-[1.5rem] pb-[2.5rem] fixed z-[999] w-full top-0 border-b-[1px] border-white'>
+                <div className='bg-[#161616] flex items-center justify-between px-[64px] pt-[24px] pb-[40px] fixed z-[999] w-full top-0 border-b-[1px] border-white'>
                     <a href="/"><img src="logo.svg" alt="" /></a>
                     <i onClick={() => handleClick()} className="fa-solid fa-xmark text-[30px]"></i>
                 </div>

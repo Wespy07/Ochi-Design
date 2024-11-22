@@ -1,6 +1,6 @@
 .collapsible-content {
     overflow: hidden;
-    max-height: 0;
+    max-height: 10vh;
     transition: all 0.4s linear;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .services-container {
-    transition: opacity 0.4s ease-in-out;
+    transition: all 0.4s linear;
     display: flex;
     flex-direction: column;
     align-items: start;
