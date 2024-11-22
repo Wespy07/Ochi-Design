@@ -1,27 +1,39 @@
-.collapsible-content {
+/* Content transitions */
+.collapsible-content,
+.services-container {
     overflow: hidden;
-    max-height: 10vh;
-    transition: all 0.4s linear;
+    max-height: 0;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
 }
 
-.collapsible-content.expanded {
-    max-height: 300px;
+.collapsible-content.expanded,
+.services-container.expanded {
+    max-height: 300px; /* Adjust as needed for content size */
     opacity: 1;
 }
 
-.services-container {
-    transition: all 0.4s linear;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: start;
-}
-
-.services-container.hidden {
-    opacity: 0;
-    pointer-events: none;
-}
-
+/* Smooth placeholder retention */
 .placeholder {
     min-height: 30px;
+}
+
+/* Button hover effect */
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Services Section */
+.services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/* Transition collapsible */
+.collapsible-content.collapsed,
+.services-container.collapsed {
+    max-height: 0;
+    opacity: 0;
 }
