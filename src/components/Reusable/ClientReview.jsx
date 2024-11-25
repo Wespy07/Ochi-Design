@@ -1,79 +1,3 @@
-// import React, { useState } from 'react';
-// import './ClientReview.css';
-// import Pill from './Pill';
-
-// function ClientReview({ company, username, service1, src, desc }) {
-//     const [isExpanded, setIsExpanded] = useState(false);
-
-//     const toggleExpand = () => {
-//         setIsExpanded((prev) => !prev);
-//     };
-
-//     return (
-//         <div className="text-lg border-t-[1px] border-b-[1px]">
-//             <div className="flex px-14 gap-5 py-5">
-//                 {/* Company Section */}
-//                 <div className="w-[25%]">
-//                     <p>{company}</p>
-//                 </div>
-
-//                 {/* Services Section */}
-//                 <div
-//                     className={`w-[25%] services-container transition-all duration-300 ease-in-out ${
-//                         isExpanded ? 'expanded' : 'collapsed'
-//                     }`}
-//                 >
-//                     {isExpanded ? (
-//                         <>
-//                             <p>Services:</p>
-//                             <Pill service1={service1} />
-//                         </>
-//                     ) : (
-//                         <div className="placeholder"></div>
-//                     )}
-//                 </div>
-
-//                 {/* Username and Content Section */}
-//                 <div className="w-[38%]">
-//                     <p>{username}</p>
-//                     <div
-//                         className={`collapsible-content transition-all duration-300 ease-in-out ${
-//                             isExpanded ? 'expanded' : 'collapsed'
-//                         }`}
-//                     >
-//                         <img
-//                             className="my-5 h-[111px] rounded-lg"
-//                             src={src}
-//                             alt={username}
-//                         />
-//                         <p className="tracking-tighter leading-[22px] text-[16px]">
-//                             {desc}
-//                         </p>
-//                     </div>
-//                 </div>
-
-//                 {/* Read Button */}
-//                 <div className="w-[8%] flex flex-col items-end">
-//                     <button
-//                         onClick={toggleExpand}
-//                         className="transition-transform duration-300"
-//                     >
-//                         {isExpanded ? 'Collapse' : 'Read'}
-//                     </button>
-//                 </div>
-//             </div>
-//         </div>
-//     );
-// }
-
-// export default ClientReview;
-
-
-
-
-
-
-
 import React from 'react';
 import './ClientReview.css';
 import Pill from './Pill';
@@ -118,7 +42,7 @@ function ClientReview({ company, username, service1, src, desc, isExpanded, togg
                 </div>
 
                 <div className="w-[8%] flex flex-col items-end">
-                    <button onClick={toggleExpand}>
+                    <button className='client-review-btn' onClick={toggleExpand}>
                         <svg
                             className="fill-white shrink-0"
                             width="16"

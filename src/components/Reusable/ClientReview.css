@@ -1,4 +1,3 @@
-/* Content transitions */
 .collapsible-content,
 .services-container {
     overflow: hidden;
@@ -9,21 +8,20 @@
 
 .collapsible-content.expanded,
 .services-container.expanded {
-    max-height: 300px; /* Adjust as needed for content size */
+    max-height: 300px; 
     opacity: 1;
 }
 
-/* Smooth placeholder retention */
 .placeholder {
     min-height: 30px;
 }
-
-/* Button hover effect */
-button:hover {
-    transform: scale(1.05);
+.client-review-btn{
+    transition: all 0.2s;
+}
+.client-review-btn:hover {
+    transform: scale(1.3);
 }
 
-/* Services Section */
 .services-container {
     display: flex;
     flex-direction: column;
@@ -31,7 +29,6 @@ button:hover {
     justify-content: flex-start;
 }
 
-/* Transition collapsible */
 .collapsible-content.collapsed,
 .services-container.collapsed {
     max-height: 0;

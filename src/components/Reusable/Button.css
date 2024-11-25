@@ -1,14 +1,13 @@
-
 .button-87 {
-    padding: 16px 30px 16px 40px;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;
-    border-radius: 50px;
-    border: 0px;
-    background-image: linear-gradient(45deg, #44204d 0%, #111111 51%, #653172 100%);
-    cursor: pointer;
+  padding: 16px 30px 16px 40px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 50px;
+  border: 0px;
+  background-image: linear-gradient(45deg, #44204d 0%, #111111 51%, #653172 100%);
+  cursor: pointer;
 }
 
 .button-87:hover {
@@ -21,20 +20,43 @@
   transform: scale(0.95);
 }
 
-.button-87 .fa-solid{
-    font-size: 20px;
+.button-87 .fa-solid {
+  font-size: 20px;
 }
-.pill{
-    padding: 7px 13px;
-    font-size: 14px;
-    text-transform: uppercase;
-    transition: 0.3s;
-    color: white;
-    border-radius: 50px;
-    border: 1px solid;
-    cursor: pointer;
+
+.pill {
+  padding: 7px 13px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  color: white;
+  border-radius: 50px;
+  border: 1px solid;
+  cursor: pointer;
 }
-.pill:hover{
+
+.pill:hover {
   background-color: #aaa;
+  color: #212121;
+}
+
+.copyright-btn {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.copyright-btn:hover{
+  background-color: #cdea68;
+  transform: scale(1.05);
+  color: #004d43;
+}
+
+.bumper-btn {
+  transition: all 0.3s;
+}
+
+.bumper-btn:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: #fff;
   color: #212121;
 }

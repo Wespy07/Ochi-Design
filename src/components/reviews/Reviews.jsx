@@ -3,7 +3,7 @@ import ClientReview from '../Reusable/ClientReview';
 import reviewsData from './reviewsData';
 
 function Reviews() {
-    const [expandedIndex, setExpandedIndex] = useState(0); // Default to first review
+    const [expandedIndex, setExpandedIndex] = useState(0); 
 
     const toggleExpand = (index) => {
         setExpandedIndex((prevIndex) => (prevIndex === index ? null : index));
