@@ -5,7 +5,7 @@ function Herosection() {
     return (
         <main className='w-full'>
             <div className='hero-section pt-[80px] pl-[48px] font-semibold leading-none uppercase'>
-                <div className='font-grotesk3'>
+                <div className=''>
                     <h1 className='mb-[-16px]'>We create</h1>
                     <h1 className='mb-[-16px]'>Jaw dropping</h1>
                     <h1 className='mb-[-16px]'>Websites</h1>

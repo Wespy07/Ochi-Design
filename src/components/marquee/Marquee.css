@@ -12,14 +12,18 @@ h3{
 }
 
 .marquee-content{
+    font-family: 'grotesk', 'Roboto', 'Poppins';
     position: relative;
     display: flex;
     gap: 5px;
     font-size: 306px;
     white-space: nowrap;
     overflow-x: hidden;
-    letter-spacing: -10px;
+    word-spacing: -15px;
     font-weight: 500;
+}
+.second-text{
+    margin-left: 10px;
 }
 
 /* .marquee-text{

@@ -8,9 +8,9 @@ function Marquee() {
                 <div>
                     <div className='marquee-text'>
                         <div className='top-line'></div>
-                        <div className='marquee-content font-grotesk2'>
+                        <div className='marquee-content'>
                             <h3>we are ochi</h3>
-                            <h3>we are ochi</h3>
+                            <h3 className='second-text'>we are ochi</h3>
                         </div>
                         <div className='bottom-line'></div>
                     </div>
