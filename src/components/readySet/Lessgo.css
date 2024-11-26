@@ -1,0 +1,26 @@
+.lessgo-text{
+    font-family: 'grotesk', 'Roboto', 'Poppins';
+    font-size: 244px;
+    line-height: 170px;
+    /* color: #95df9b; */
+    /* color: #01d6ba; */
+    color: #cdea68;
+    text-align: center;
+}
+.lessgo-btn{
+    transition: all 0.2s linear;
+}
+.lessgo-btn:hover{
+    transform: scale(1.05);
+    background-color: black;
+}
+.lessgo-mail-btn{
+    transition: all 0.2s linear;
+    border: 1px solid;
+}
+.lessgo-mail-btn:hover{
+    transform: scale(1.05);
+    background-color: #cdea68;
+    border: 1px solid #cdea68;
+    color: #212121;
+}

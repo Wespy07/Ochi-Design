@@ -7,9 +7,9 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(24, 24, 27);
+    /* background-color: #18181b; */
     color: white;
-    font-family: 'Poppins', "Roboto", sans-serif;
+    font-family: 'Poppins', "Roboto", sans-serif;   
 }
 
 .underline-hover {
