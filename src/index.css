@@ -4,6 +4,5 @@
 
 @font-face{
     font-family: 'grotesk';
-    /* src: url(../public/grotesk.ttf); */
-    src: url(./grotesk.ttf);
+    src: url(../public/grotesk.ttf);
 }
