@@ -1,8 +1,8 @@
 .eyes-container{
-    background-image: url('https://img.freepik.com/free-vector/abstract-red-circle-black-background-technology_1142-9839.jpg?t=st=1732101737~exp=1732105337~hmac=a92389771d488fc060d259303db5026046992979ec20e6f908fb0a8d328bdb2a&w=900');
-    /* background-image: url('https://r4.wallpaperflare.com/wallpaper/584/153/208/batman-trilogy-dark-knight-trilogy-wallpaper-d46953a3c985394b96f897d07bf2792d.jpg');*/
-    /* background-size: 50% 100%;  */
+    /* background-image: url('https://img.freepik.com/free-vector/abstract-red-circle-black-background-technology_1142-9839.jpg?t=st=1732101737~exp=1732105337~hmac=a92389771d488fc060d259303db5026046992979ec20e6f908fb0a8d328bdb2a&w=900'); */
+    background-image: url('./eyes-backdrop.jpg');
+    background-size: cover; 
     background-position: right;
     /* background-color: pink; */
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
 }

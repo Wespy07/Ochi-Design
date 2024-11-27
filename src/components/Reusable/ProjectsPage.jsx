@@ -2,7 +2,7 @@ import React from 'react'
 import './ProjectsPage.css'
 
 function ProjectsPage(props) {
-    console.log(props.tag1)
+    // console.log(props.tag1)
     return (
         <>
             <div className='text-base mt-3'>

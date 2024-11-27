@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Dropdown from '../sidemenu/Dropdown'
+import Dropdown from '../dropdown/Dropdown'
 
 function Navbar() {
 

@@ -12,7 +12,7 @@ function Herosection() {
                 </div>
             </div>
 
-            <hr className='mt-[96px]' />
+            <hr className='mt-[80px]' />
 
             <div className='flex w-full justify-between px-[80px] mt-5'>
                 <p>For public and private companies</p>

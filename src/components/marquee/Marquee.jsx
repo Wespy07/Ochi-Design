@@ -3,7 +3,7 @@ import './Marquee.css'
 
 function Marquee() {
     return (
-        <div className='marquee-box mt-6 uppercase h-[70vh] tracking-tighter pt-[64px] w-full bg-[#004d43] text-white flex items-center'>
+        <div className='marquee-box mt-7 uppercase h-[70vh] tracking-tighter pt-[64px] w-full bg-[#004d43] text-white flex items-center'>
             <div className='w-full'>
                 <div>
                     <div className='marquee-text'>
