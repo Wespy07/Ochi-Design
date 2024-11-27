@@ -35,7 +35,7 @@ function Lessgo() {
                     <h2>the project?</h2>
                 </div>
                 <div className='flex flex-col items-center justify-center gap-3'>
-                    <button className='bg-[#212121] rounded-full uppercase px-10 py-5 lessgo-btn'>start the project<i className="ml-4 rotate-45 fa-solid fa-arrow-up-long"></i></button>
+                    <button className='bg-[#151515] rounded-full uppercase px-10 py-5 lessgo-btn'>start the project<i className="ml-4 rotate-90 fa-solid fa-arrow-up-long lessgo-arrow"></i></button>
                     <h3 className='font-light'>OR</h3>
                     <button className='rounded-full uppercase px-10 py-5 lessgo-mail-btn'>wespy07@gmail.com</button>
                 </div>

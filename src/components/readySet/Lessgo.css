@@ -24,3 +24,10 @@
     border: 1px solid #cdea68;
     color: #212121;
 }
+.lessgo-btn:hover .lessgo-arrow {
+    transform: rotate(45deg);
+}
+
+.lessgo-arrow {
+    transition: transform 0.2s ease-in-out;
+}

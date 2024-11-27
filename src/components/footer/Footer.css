@@ -3,29 +3,3 @@
     font-size: 144px;
     line-height: 105px;
 }
-
-.underline-hover {
-    position: relative;
-    text-decoration: none;
-}
-
-.underline-hover::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 2px;
-    background-color: #fff;
-    transition: width 0.3s ease;
-}
-
-.underline-hover:hover::after {
-    width: 100%;
-}
-
-.custom-underline {
-    text-decoration: underline;
-    text-decoration-thickness: 1px; 
-    text-underline-offset: 3px;
-}
