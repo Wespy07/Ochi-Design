@@ -4,7 +4,7 @@ import './Footer.css'
 function Footer() {
     return (
         <>
-            <div className='h-[100vh] w-full rounded-t-[25px] bg-[#100e18] mt-2 flex gap-5 relative'>
+            <div data-scroll data-scroll-speed='-0.05' className='h-[100vh] w-full rounded-t-[25px] bg-[#100e18] mt-2 flex gap-5 relative'>
                 <div className='w-[50%] h-[80%] rounded-xl p-10 uppercase px-12'>
                     <h3 className='footer-title'>Jaw-</h3>
                     <h3 className='footer-title'>Dropping</h3>

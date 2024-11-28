@@ -36,7 +36,7 @@ function Lessgo() {
     }, []);
 
     return (
-        <div ref={eyesRef} className="bg-[#004d43] w-full rounded-[25px] mt-2 flex flex-col justify-center items-center relative">
+        <div data-scroll data-scroll-speed='-0.03' ref={eyesRef} className="bg-[#004d43] w-full rounded-[25px] mt-2 flex flex-col justify-center items-center relative">
             <div className="w-full flex items-center justify-center absolute top-48 opacity-[0.97]">
                 <div className="flex gap-3 justify-center items-center w-[70%] h-[75%]">
                     <div className="h-[200px] w-[200px] bg-[#ddd] rounded-full flex items-center justify-center">

@@ -1,13 +1,23 @@
 import React from 'react'
 import './Herosection.css'
+import { motion } from 'framer-motion'
 
 function Herosection() {
     return (
-        <main className='w-full'>
+        <main data-scroll data-scroll-speed='-0.5' className='w-full'>
             <div className='hero-section pt-[80px] pl-[48px] font-semibold leading-none uppercase'>
-                <div className=''>
+                <div>
                     <h1 className='mb-[-16px]'>We create</h1>
-                    <h1 className='mb-[-16px]'>Jaw dropping</h1>
+                    <div className='flex'>
+                        <motion.span
+                            initial={{ width: 0 }}
+                            animate={{ width: '148px' }}
+                            transition={{ ease: 'linear', duration: 0.35 }}
+                            className='hero-span object-contain overflow-hidden'>
+                                <img src="./jaw.gif" />
+                        </motion.span>
+                        <h1 className='mb-[-16px]'>Jaw dropping</h1>
+                    </div>
                     <h1 className='mb-[-16px]'>Websites</h1>
                 </div>
             </div>

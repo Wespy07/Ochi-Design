@@ -15,15 +15,15 @@ h3{
     font-family: 'grotesk', 'Roboto', 'Poppins';
     position: relative;
     display: flex;
-    gap: 5px;
-    font-size: 306px;
+    /* gap: 5px; */
+    font-size: 456px;
     white-space: nowrap;
     overflow-x: hidden;
-    word-spacing: -15px;
+    word-spacing: -30px;
     font-weight: 500;
 }
 .second-text{
-    margin-left: 10px;
+    padding-left: 20px;
 }
 
 /* .marquee-text{
@@ -45,12 +45,12 @@ h3{
     opacity: 0.4;
     position: relative;
     width: 100%;
-    top: 50px;
+    top: 170px;
 }
 .bottom-line{
     border: 1px solid;
     width: 100%;
     opacity: 0.4;
     position: relative;
-    bottom: 165px;
+    bottom: 260px;
 }

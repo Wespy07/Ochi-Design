@@ -12,7 +12,7 @@ function Reviews() {
 
 
     return (
-        <div className="reviews-container py-16">
+        <div data-scroll data-scroll-speed='-0.1' className="reviews-container py-16">
             <h2 className="px-12 pb-2 text-[58px]">Clients Reviews</h2>
             {reviewsData.map((review, index) => (
                 <ClientReview

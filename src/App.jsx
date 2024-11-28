@@ -9,8 +9,11 @@ import Lessgo from './components/readySet/Lessgo'
 import Bumper from './components/Reusable/Bumper'
 import Reviews from './components/reviews/Reviews'
 import Brief from './components/websiteBrief/Brief'
+import LocomotiveScroll from 'locomotive-scroll';
 
 function App() {
+
+  const locomotiveScroll = new LocomotiveScroll();
 
   return (
     <>

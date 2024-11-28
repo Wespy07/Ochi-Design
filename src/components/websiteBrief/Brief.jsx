@@ -4,7 +4,7 @@ import Button from '../Reusable/Button'
 
 function Brief() {
     return (
-        <div className='bg-[#cdea68] text-[#212121] w-full brief-container'>
+        <div data-scroll data-scroll-speed='0.03' className='bg-[#cdea68] text-[#212121] w-full brief-container'>
             <div className='px-12 pb-12 pt-20 text-[58px] leading-none tracking-tight w-[85%] font-neue'>
                 <p>Ochi is a <u>creative frontend website development</u> agency for forward-thinking businesses that need to raise funds, sell products, explain complex ideas, and hire great people.</p>
             </div>
