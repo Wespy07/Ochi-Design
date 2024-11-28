@@ -1,5 +1,6 @@
 import React from 'react'
 import './Marquee.css'
+import { motion } from 'framer-motion'
 
 function Marquee() {
     return (
@@ -9,8 +10,8 @@ function Marquee() {
                     <div className='marquee-text'>
                         <div className='top-line'></div>
                         <div className='marquee-content'>
-                            <h3>we are ochi</h3>
-                            <h3 className='second-text'>we are ochi</h3>
+                            <motion.h3 initial={{x:0}} animate={{x: '-100%'}} transition={{ease: 'linear', repeat: Infinity, duration: 5}} >we are ochi</motion.h3>
+                            <motion.h3 initial={{x:0}} animate={{x: '-100%'}} transition={{ease: 'linear', repeat: Infinity, duration: 5}}  className='second-text'>we are ochi</motion.h3>
                         </div>
                         <div className='bottom-line'></div>
                     </div>

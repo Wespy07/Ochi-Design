@@ -11,9 +11,7 @@
     margin-top: 2.5rem;
     font-size: 170px;
     line-height: 135px;
-    background-image: url('https://img.freepik.com/free-vector/background-abstract-line-digital-gradient-luxury_483537-2367.jpg?t=st=1732101609~exp=1732105209~hmac=41eb94935be3bd357ae545432ce8210cb962cef00fb252df5247699bb3fa7afd&w=996');
-    /* background-image: url('https://img.freepik.com/free-vector/abstract-red-circle-black-background-technology_1142-9839.jpg?t=st=1732101737~exp=1732105337~hmac=a92389771d488fc060d259303db5026046992979ec20e6f908fb0a8d328bdb2a&w=900'); */
-    /* background-image: url('https://static.vecteezy.com/system/resources/previews/011/912/854/non_2x/black-hexagonal-tire-pattern-background-industrial-geometric-polygonal-grid-textured-in-dark-brutal-monochrome-linear-minimalism-vector.jpg'); */
+    background-image: url('./banner.jpg');
     background-position: right;
 }
 
