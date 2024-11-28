@@ -18,7 +18,7 @@ function Dropdown({ dropdown, setDropdown }) {
             </nav>
 
 
-            <div className='mt-[85px] nav-links uppercase flex flex-col gap-1 text-[80px] font-bold leading-none tracking-tight p-5'>
+            <div className='mt-[85px] nav-links uppercase flex flex-col gap-1 text-[60px] font-bold leading-none tracking-tight p-5'>
                 <span><a href="#">Services</a></span>
                 <span><a href="#">Our Work</a></span>
                 <span><a href="#">About Us</a></span>
@@ -37,36 +37,8 @@ function Dropdown({ dropdown, setDropdown }) {
                     </div>
                 </div>
 
-                <div className='mt-5'>
-                    <h4 className='text-xl'>L<span className='text-base'>:</span></h4>
-                    <div className='flex flex-col leading-relaxed'>
-                        <address className='flex flex-col'>
-                            <span><a className='custom-underline' href="#">202-1965 W 4th Ave</a></span>
-                            <span><a className='custom-underline' href="#">Vancouver, Canada</a></span>
-                            <br />
-                            <span><a className='custom-underline' href="#">30 Chukarina St</a></span>
-                            <span><a className='custom-underline' href="#">Lviv, Ukraine</a></span>
-                        </address>
-                    </div>
-                </div>
-
-                <div className='mt-5'>
-                    <h4 className='text-xl'>E<span className='text-base'>:</span></h4>
-                    <div className='flex flex-col leading-relaxed'>
-                        <address className='flex flex-col'>
-                            <span><a href='#' className='custom-underline'>wespy07@gmail.com</a></span>
-                        </address>
-                    </div>
-                </div>
-
             </div>
         </div>
-
-
-
-
-
-
     )
 }
 

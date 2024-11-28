@@ -3,14 +3,14 @@ import './Footer.css'
 
 function Footer() {
     return (
-        <div data-scroll data-scroll-speed='0.05' className='h-[100vh] w-full rounded-t-[25px] bg-[#100e18] mt-2 flex gap-5 relative'>
-            <div className='w-[50%] h-[80%] rounded-xl p-10 uppercase px-12'>
+        <div data-scroll data-scroll-speed='0.05' className='h-[100vh] w-full rounded-t-[25px] bg-[#100e18] mt-2 flex relative footer-container'>
+            <div className='w-[50%] h-[80%] rounded-xl p-10 uppercase px-12 footer-jaw-drop'>
                 <h3 className='footer-title'>Jaw-</h3>
                 <h3 className='footer-title'>Dropping</h3>
             </div>
             <div className='w-[50%] h-[80%] rounded-xl uppercase p-10 px-12'>
                 <h3 className='footer-title'>websites</h3>
-                <div className='flex h-full w-full gap-2'>
+                <div className='flex h-full w-full gap-2 footer-text-box footer-menu-container'>
                     <div className='w-1/2 h-[90%] flex flex-col justify-between'>
                         <div>
                             <h4 className='text-xl'>S<span className='text-base'>:</span></h4>
@@ -58,7 +58,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className='h-[10vh] w-full bg-[#0a090f] absolute bottom-0 px-12 flex items-center justify-between text-[11px]'>
+            <div className='h-[10vh] w-full bg-[#0a090f] absolute bottom-0 px-12 flex items-center justify-between text-[11px] footer-last-box'>
                 <div><img src='./logo.svg' /></div>
                 <div className='uppercase'><i className="fa-regular fa-copyright"></i> Ochi-Designers 2024</div>
                 <div><p>Website by <a className='underline' href="https://github.com/Wespy07" target='_blank'>WESPY</a></p></div>

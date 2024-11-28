@@ -5,7 +5,7 @@ import Button from '../Reusable/Button'
 
 function Projects() {
     return (
-        <div className='projects-container text-[58px] bg-[#111111]'>
+        <div className='projects-container max-xsm:text-[30px] max-sm:text-[40px] text-[58px] bg-[#111111]'>
             <h2 className='px-12 pt-16 pb-2'>Featured Projects</h2>
             <div className="border-[1px] opacity-[0.5] w-full border-[#fff]"></div>
 
@@ -15,8 +15,8 @@ function Projects() {
                 < ProjectsPage title='Heritage Innovation' image='./projects/heritage.png' alt='Heritage' tag1='copywriting' tag2='slides design' tag3='corruption' />
                 < ProjectsPage title='Trawa' image='./projects/trawa.jpg' alt='Trawa' tag1='design research' tag2='brand creativity' />
             </div>
-                <div className='w-full h-20 mt-5 flex justify-center items-center'>
-                    <div className='w-[20%] text-xl'>
+                <div className='w-full mt-5 flex justify-center items-center projects-btn-container'>
+                    <div className='w-[20%] text-xl max-md2:text-[16px] projects-btn'>
                         < Button text='load more' />
                     </div>
                 </div>

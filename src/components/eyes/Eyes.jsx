@@ -34,16 +34,16 @@ function Eyes() {
     return (
         <div className='overflow-hidden'>
             <div data-scroll data-scroll-speed='-0.8' ref={eyesRef} className='h-[90vh] w-full flex items-center justify-center'>
-                <div className='eyes-container flex gap-14 justify-center items-center w-[70%] h-[75%]'>
-                    <div className='h-[200px] w-[200px] bg-[#ddd] rounded-full flex items-center justify-center'>
-                        <div className='h-[140px] w-[140px]  bg-[#212121] rounded-full flex justify-center items-center'>
+                <div className='eyes-container max-md:gap-4 flex gap-14 justify-center items-center w-[70%] h-[75%]'>
+                    <div className='max-md:h-[100px] max-md:w-[100px] h-[200px] w-[200px] bg-[#ddd] rounded-full flex items-center justify-center'>
+                        <div className='max-md:h-[80px] max-md:w-[80px] h-[140px] w-[140px]  bg-[#212121] rounded-full flex justify-center items-center'>
                             <div style={{ transform: `rotate(${rotate}deg)` }} className='h-5 w-full rotate-45'>
                                 <div className='h-[20px] w-[20px] bg-[#ddd] rounded-full'></div>
                             </div>
                         </div>
                     </div>
-                    <div className='h-[200px] w-[200px] bg-[#ddd] rounded-full flex items-center justify-center'>
-                        <div className='h-[140px] w-[140px]  bg-[#212121] rounded-full flex justify-center items-center'>
+                    <div className='max-md:h-[100px] max-md:w-[100px] h-[200px] w-[200px] bg-[#ddd] rounded-full flex items-center justify-center'>
+                        <div className='max-md:h-[80px] max-md:w-[80px] h-[140px] w-[140px]  bg-[#212121] rounded-full flex justify-center items-center'>
                             <div style={{ transform: `rotate(${rotate}deg)` }} className='h-5 w-full rotate-45'>
                                 <div className='h-[20px] w-[20px] bg-[#ddd] rounded-full'></div>
                             </div>

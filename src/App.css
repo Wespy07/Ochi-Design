@@ -31,3 +31,341 @@ body {
 .underline-hover:hover::after {
     width: 100%;
 }
+
+@media screen and (max-width: 1400px) {
+    .bumper-btn{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 1170px) {
+    .hero-text{
+        line-height: 120px;
+    }
+    .hero-span{
+        height: 90px !important;
+        margin-top: 7px;
+    } 
+    .marquee-content{
+        font-size: 400px !important;
+    }
+    .bottom-line{
+        bottom: 240px !important;
+    }
+    .brief-info{
+        font-size: 40px;
+        width: 100%;
+    }
+    .brief-second-box{
+        width: 90vw;
+    }
+    .approach{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+    .our-appproach{
+        font-size: 40px;
+    }
+    .bumper-btn{
+        font-size: 8px;
+    }
+    .bumper-box-two{
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    .bumper-btwos{
+        width: 100%;
+    }
+    .lessgo-text{
+        font-size: 180px !important;
+        line-height: 130px !important;
+    }
+    .lessgo-btn, .lessgo-mail-btn{
+        font-size: 15px;
+    }
+    .footer-title{
+        margin: 20px 0;
+        font-size: 100px !important;
+        line-height: 55px !important;
+    }
+    .footer-text-box{
+        font-size: 12px;
+    }
+    .footer-last-box{
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 1031px) {
+    .hero-text{
+        font-size: 110px;
+        line-height: 95px;
+    }
+    .hero-span{
+        margin-top: 13px;
+        height: 60px !important;
+        width: 90px !important;
+    }
+    .hero-bottom{
+        font-size: 12px;
+    }
+    .marquee-content{
+        font-size: 350px !important;
+    }
+    .bottom-line{
+        bottom: 200px !important;
+    }
+    .top-line{
+        top: 150px !important;
+    }
+    .brief-info{
+        font-size: 30px;
+    }
+    .brief-expect-container{
+        justify-content: space-between;
+    }
+    .brief-expect{
+        width: 10%;
+    }
+    .brief-second-container{
+        width: 80%;
+    }
+    .brief-second-box{
+        line-height: 17px;
+        font-size: 14px;
+    }
+    .our-appproach{
+        font-size: 30px;
+    }
+    .approach-image{
+        height: 350px;
+        margin: 20px 0;
+    }
+    .pill{
+        position: relative;
+        top: -9px;
+        left: 10px;
+    }
+    .review-img-desc{
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .client-review-btn{
+        position: absolute;
+        top: 20px;
+        right: 50px;
+    }
+    .lessgo-text{
+        font-size: 140px !important;
+        line-height: 110px !important;
+    }
+    .lessgo-btn, .lessgo-mail-btn{
+        font-size: 12px;
+    }
+    .title-container, .services-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .projects-btn{
+        font-size: 12px;
+        padding-right: 5px;
+    }
+    .projects-btn i{
+        display: none;
+    }
+    .marquee-box{
+        height: 40vh;
+    }
+}
+@media screen and (max-width: 770px) {
+    .footer-title{
+        margin: 20px 0;
+        font-size: 70px !important;
+        line-height: 30px !important;
+    }
+    .footer-text-box{
+        font-size: 10px;
+    }
+    .hero-text{
+        font-size: 80px;
+        line-height: 75px;
+    }
+    .hero-span{
+        margin-top: 13px;
+        height: 50px !important;
+        width: 70px !important;
+    }
+    .hero-bottom{
+        font-size: 9px;
+    }
+    .marquee-box{
+        height: 35vh;
+    }
+    .marquee-content{
+        font-size: 250px !important;
+    }
+    .bottom-line{
+        bottom: 140px !important;
+    }
+    .top-line{
+        top: 130px !important;
+    }
+    .brief-info{
+        font-size: 22px;
+    }
+    .brief-expect-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .brief-expect{
+        width: 70vw;
+    }
+    .brief-second-box{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .brief-socials{
+        font-size: 12px;
+    }
+    .approach-image{
+        height: 250px;
+        width: 250px;
+        /* margin: 20px 0; */
+    }
+}
+
+@media screen and (max-width: 717px) {
+    .projects-btn{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 687px) {
+    .lessgo-text{
+        font-size: 110px !important;
+        line-height: 85px !important;
+    }
+    .lessgo-eyes{
+        display: none;
+    }
+    .lessgo-btn, .lessgo-mail-btn{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .title-container, .services-container{
+        font-size: 16px;
+    }
+    .desc-container{
+        font-size: 12px;
+        line-height: 15px;
+        margin-right: 20px;
+    }
+    .pill{
+        font-size: 10px !important;
+    }
+    .bumper-container{
+        height: 400px;
+    }
+    .bumper-btn{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .hero-bottom>p{
+        display: none;
+    }
+    .hero-bottom{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 612px) {
+    .projects-btn, .projects-btn-container{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .hero-text{
+        font-size: 55px;
+        line-height: 60px;
+    }
+    .hero-span{
+        margin-top: 17px;
+        height: 40px !important;
+        width: 60px !important;
+    }
+    .hero-bottom{
+        font-size: 14px;
+    }
+    .our-appproach{
+        font-size: 18px;
+    }
+    .approach button{
+        font-size: 12px;
+    }
+    .approach button i{
+        display: none;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-jaw-drop{
+        height: 15%;
+    }
+    .footer-menu-container{
+        width: 70vw;
+    }
+    .lessgo-text{
+        font-size: 80px !important;
+        line-height: 65px !important;
+    }
+    .copyright-btn{
+        display: none;
+    }
+}
+@media screen and (max-width: 472px) {
+    .approach-image{
+        height: 150px;
+        width: 150px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .review-img-desc{
+        flex-direction: column;
+        align-items: start;
+    }
+    .footer-last-box .uppercase{
+        display: none;
+    }
+    .footer-last-box{
+        height: 5vh;
+    }
+    .hero-span{
+        position: absolute !important;
+        top: 152px !important;
+        left: 239px !important;
+    }
+    .brief-info{
+        font-size: 16px;
+        padding-top: 20px;
+    }
+    .brief-second-container{
+        flex-direction: column;
+    }
+    .brief-second-box{
+        width: 90vw;
+        margin-bottom: 20px;
+    }
+    .brief-socials-box{
+        justify-content: start;
+    }
+}

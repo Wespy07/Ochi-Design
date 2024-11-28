@@ -6,7 +6,7 @@ function Herosection() {
     return (
         <main data-scroll data-scroll-speed='-0.5' className='w-full'>
             <div className='hero-section pt-[80px] pl-[48px] font-semibold leading-none uppercase'>
-                <div>
+                <div className='max-lg:text-[130px] hero-text'>
                     <h1 className='mb-[-16px]'>We create</h1>
                     <div className='flex'>
                         <motion.span
@@ -22,9 +22,9 @@ function Herosection() {
                 </div>
             </div>
 
-            <hr className='mt-[80px]' />
+            <hr className='max-sm:mt-[50px] mt-[80px]' />
 
-            <div className='flex w-full justify-between px-[80px] mt-5'>
+            <div className='flex w-full justify-between px-[80px] mt-5 hero-bottom'>
                 <p>For public and private companies</p>
                 <p>From Startups to industry giants</p>
                 <div className='flex gap-1 hero-buttons'>

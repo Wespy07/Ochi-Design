@@ -16,7 +16,7 @@ function Lessgo() {
             e.clientY <= rect.bottom
         );
 
-        if (!isInside) return; // Stop tracking if the mouse is outside the component
+        if (!isInside) return; 
 
         const centreX = e.clientX - (rect.left + rect.width / 2);
         const centreY = e.clientY - (rect.top + rect.height / 2);
@@ -26,10 +26,7 @@ function Lessgo() {
     };
 
     useEffect(() => {
-        // Add mousemove event listener
         window.addEventListener('mousemove', handleMouseMove);
-
-        // Cleanup the event listener on component unmount
         return () => {
             window.removeEventListener('mousemove', handleMouseMove);
         };
@@ -37,12 +34,11 @@ function Lessgo() {
 
     return (
         <div data-scroll data-scroll-speed='-0.03' ref={eyesRef} className="bg-[#004d43] w-full rounded-[25px] mt-2 flex flex-col justify-center items-center relative">
-            <div data-scroll data-scroll-speed='0.35' className="w-full flex items-center justify-center absolute top-48 opacity-[0.97]">
+            <div data-scroll data-scroll-speed='0.35' className="lessgo-eyes w-full flex items-center justify-center absolute top-48 opacity-[0.97]">
                 <div className="flex gap-3 justify-center items-center w-[70%] h-[75%]">
                     <div className="h-[200px] w-[200px] bg-[#ddd] rounded-full flex items-center justify-center">
                         <div className="h-[140px] w-[140px] bg-[#212121] rounded-full flex justify-center items-center">
-                            <div
-                                style={{ transform: `rotate(${rotate}deg)` }}
+                            <div style={{ transform: `rotate(${rotate}deg)` }}
                                 className="h-5 w-full rotate-45"
                             >
                                 <div className="h-[20px] w-[20px] bg-[#ddd] rounded-full"></div>
@@ -51,8 +47,7 @@ function Lessgo() {
                     </div>
                     <div className="h-[200px] w-[200px] bg-[#ddd] rounded-full flex items-center justify-center">
                         <div className="h-[140px] w-[140px] bg-[#212121] rounded-full flex justify-center items-center">
-                            <div
-                                style={{ transform: `rotate(${rotate}deg)` }}
+                            <div style={{ transform: `rotate(${rotate}deg)` }}
                                 className="h-5 w-full rotate-45"
                             >
                                 <div className="h-[20px] w-[20px] bg-[#ddd] rounded-full"></div>
