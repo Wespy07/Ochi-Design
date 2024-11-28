@@ -11,7 +11,7 @@
     margin-top: 2.5rem;
     font-size: 170px;
     line-height: 135px;
-    background-image: url('./banner/1.jpg');
+    background-image: url('/banner.png');
     background-position: right;
 }
 
