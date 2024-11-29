@@ -9,7 +9,7 @@ function Dropdown({ dropdown, setDropdown }) {
     }
 
     return (
-        <div className='bg-[#161616]'>
+        <div className='bg-[#161616] dropdown-container'>
             <nav>
                 <div className='bg-[#161616] flex items-center justify-between px-[64px] pt-[24px] pb-[40px] fixed z-[999] w-full top-0 border-b-[1px] border-white'>
                     <a href="/"><img src="logo.svg" alt="" /></a>
@@ -18,7 +18,7 @@ function Dropdown({ dropdown, setDropdown }) {
             </nav>
 
 
-            <div className='mt-[85px] nav-links uppercase flex flex-col gap-1 text-[60px] font-bold leading-none tracking-tight p-5'>
+            <div className='mt-[85px] nav-links uppercase flex flex-col gap-1 text-[30px] font-bold leading-none tracking-tight p-5'>
                 <span><a href="#">Services</a></span>
                 <span><a href="#">Our Work</a></span>
                 <span><a href="#">About Us</a></span>
@@ -28,8 +28,8 @@ function Dropdown({ dropdown, setDropdown }) {
 
             <div className='mt-12 p-5'>
                 <div>
-                    <h4 className='text-xl'>S<span className='text-base'>:</span></h4>
-                    <div className='flex flex-col leading-relaxed'>
+                    <h4 className='text-2xl'>S<span className='text-[15px]'>:</span></h4>
+                    <div className='flex flex-col leading-relaxed text-[12px]'>
                         <span><a className='custom-underline' href="#">Instagram</a></span>
                         <span><a className='custom-underline' href="#">Behance</a></span>
                         <span><a className='custom-underline' href="#">Facebook</a></span>
