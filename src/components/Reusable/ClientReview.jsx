@@ -25,7 +25,7 @@ function ClientReview({ company, username, service1, src, desc, isExpanded, togg
                 </div>
 
                 <div className="w-[38%]">
-                    <p>{username}</p>
+                    <p className='username-box'>{username}</p>
                     <div className={`review-img-desc collapsible-content transition-all duration-300 ease-in-out ${isExpanded ? 'expanded' : 'collapsed'
                             }`}
                     >

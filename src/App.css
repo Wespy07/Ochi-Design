@@ -280,12 +280,43 @@ body {
 }
 
 @media screen and (max-width: 660px) {
-    .hero-bottom>p{
+    main{
+        height: 70vh;
+    }
+    main hr{
+        margin-top: 10px !important;
+    }
+    .hero-section{
+        height: 80%;
+    }
+    .hero-bottom{
+        flex-direction: column;
+        gap: 5px;
+        font-size: 11px;
+    }
+    .hero-text{
+        font-size: 95px;
+        line-height: 85px;
+    }
+    .hero-buttons{
+        font-size: 18px;
+        position: absolute;
+        right: 30px;
+        bottom: 20px;
+    }
+    .hero-span{
+        position: absolute !important;
+        left: 23rem !important;
+        top: 12.8rem !important;
+        height: 57px !important;
+        width: 85px !important;
+    }
+    /* .hero-bottom>p{
         display: none;
     }
     .hero-bottom{
         font-size: 16px;
-    }
+    } */
 }
 @media screen and (max-width: 612px) {
     .projects-btn, .projects-btn-container{
@@ -294,14 +325,23 @@ body {
 }
 
 @media screen and (max-width: 550px) {
+    .hero-bottom>p{
+        display: none;
+    }
+    .hero-buttons{
+        /* font-size: 18px;
+        position: absolute; */
+        left: 40px;
+        bottom: 10px;
+    }
     .hero-text{
-        font-size: 55px;
-        line-height: 60px;
+        font-size: 85px;
+        line-height: 80px;
     }
     .hero-span{
-        margin-top: 17px;
-        height: 40px !important;
-        width: 60px !important;
+        position: absolute !important;
+        top: 193px !important;
+        left: 341px !important;
     }
     .hero-bottom{
         font-size: 14px;
@@ -337,6 +377,15 @@ body {
         height: 150px;
         width: 150px;
     }
+    .hero-section{
+        padding-left: 20px;
+    }
+    .hero-span{
+        left: 301px !important;
+    }
+    .username-box{
+        font-size: 13px;
+    }
 }
 @media screen and (max-width: 450px) {
     .review-img-desc{
@@ -349,10 +398,15 @@ body {
     .footer-last-box{
         height: 5vh;
     }
+    .hero-text{
+        font-size: 70px;
+        line-height: 68px;
+    }
     .hero-span{
         position: absolute !important;
-        top: 152px !important;
-        left: 239px !important;
+        top: 169px !important;
+        left: 255px !important;
+        height: 48px !important;
     }
     .brief-info{
         font-size: 16px;
