@@ -382,7 +382,7 @@ body {
     }
     .fa-xmark{
         position: absolute;
-        right: 30px;
+        right: 40px;
     }
 }
 @media screen and (max-width: 472px) {

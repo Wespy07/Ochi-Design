@@ -59,9 +59,9 @@ function Lessgo() {
 
             <div className="mt-40 mb-20">
                 <div className="text-[244px] lessgo-text uppercase">
-                    <h2>Ready</h2>
-                    <h2>to start</h2>
-                    <h2>the project?</h2>
+                    <h2 className='ready'>Ready</h2>
+                    <h2 className='start'>to start</h2>
+                    <h2 className='project'>the project?</h2>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-3">
                     <button className="bg-[#151515] rounded-full uppercase px-10 py-5 lessgo-btn">

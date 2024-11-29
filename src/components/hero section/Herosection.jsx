@@ -1,13 +1,45 @@
 import React from 'react'
 import './Herosection.css'
-import { motion } from 'framer-motion'
+import { easeInOut, motion } from 'framer-motion'
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
 
 function Herosection() {
+
+    useGSAP(() => {
+        gsap.from('.we-create', {
+            y: -70,
+            opacity:0,
+            duration:1,
+            delay:0.5,
+            ease: easeInOut
+        })
+        gsap.from('.jaw-drop', {
+            delay:1.5,
+            duration:1,
+            opacity:0
+        })
+        gsap.from('.hero-site', {
+            y:70,
+            delay:2,
+            duration:1,
+            opacity:0
+        })
+        gsap.from('.hero-span', {
+            delay:3.2,
+            duration:1.2,
+            opacity:0,
+            rotate:900,
+            scale:0,
+            x:100
+        })
+    })
+
     return (
         <main data-scroll data-scroll-speed='-0.5' className='w-full'>
             <div className='hero-section pt-[80px] pl-[48px] font-semibold leading-none uppercase'>
                 <div className='max-lg:text-[130px] hero-text'>
-                    <h1 className='mb-[-16px]'>We create</h1>
+                    <h1 className='mb-[-16px] we-create'>We create</h1>
                     <div className='flex'>
                         <motion.span
                             initial={{ width: 0 }}
@@ -16,9 +48,9 @@ function Herosection() {
                             className='hero-span object-contain overflow-hidden'>
                                 <img src="./jaw.gif" />
                         </motion.span>
-                        <h1 className='mb-[-16px]'>Jaw dropping</h1>
+                        <h1 className='mb-[-16px] jaw-drop'>Jaw dropping</h1>
                     </div>
-                    <h1 className='mb-[-16px]'>Websites</h1>
+                    <h1 className='mb-[-16px] hero-site'>Websites</h1>
                 </div>
             </div>
 
