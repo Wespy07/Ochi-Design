@@ -1,9 +1,11 @@
+import { useEffect, useState } from 'react'
 import './App.css'
 import Eyes from './components/eyes/Eyes'
 import Footer from './components/footer/Footer'
 import Navbar from './components/header/Navbar'
 import Herosection from './components/hero section/Herosection'
 import Marquee from './components/marquee/Marquee'
+import Preloader from './components/preloader/Preloader'
 import Projects from './components/Projects/Projects'
 import Lessgo from './components/readySet/Lessgo'
 import Bumper from './components/Reusable/Bumper'
@@ -14,19 +16,35 @@ import LocomotiveScroll from 'locomotive-scroll';
 function App() {
 
   const locomotiveScroll = new LocomotiveScroll();
+  const [preloader, setPreloader] = useState(true)
+
+  useEffect(() => {
+
+    const preloaderTimer = setTimeout(() => {
+      setPreloader(false)
+    }, 3000);
+
+    return () => clearTimeout(preloaderTimer)
+  }, [])
+
+
 
   return (
     <>
-      < Navbar />
-      < Herosection />
-      < Marquee />
-      < Brief />
-      < Eyes />
-      < Projects />
-      < Reviews />
-      < Bumper />
-      < Lessgo />
-      < Footer />
+      {preloader ? (< Preloader />) : (
+        <>
+          < Navbar />
+          < Herosection />
+          < Marquee />
+          < Brief />
+          < Eyes />
+          < Projects />
+          < Reviews />
+          < Bumper />
+          < Lessgo />
+          < Footer />
+        </>
+      )}
     </>
   )
 }
