@@ -19,12 +19,16 @@ function App() {
   const [preloader, setPreloader] = useState(true)
 
   useEffect(() => {
-
-    const preloaderTimer = setTimeout(() => {
+    const userVisit = localStorage.getItem('hasVisited')
+    if (userVisit === 'true') {
       setPreloader(false)
-    }, 3000);
-
-    return () => clearTimeout(preloaderTimer)
+    } else {
+      const preloaderTimer = setTimeout(() => {
+        setPreloader(false)
+        localStorage.setItem('hasVisited', 'true');
+      }, 3000);
+      return () => clearTimeout(preloaderTimer)
+    }
   }, [])
 
 

@@ -1,0 +1,27 @@
+.about-us, .services, .our-work, .insights, .contact-us{
+    font-family: 'grotesk', 'Roboto', 'Poppins';
+    font-size: 150px;
+    cursor: default;
+}
+.insights, .our-work, .services {
+    padding: 20px;
+}
+
+.about-us p{
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+
+.contact-us a {
+    transition: all 0.2s;
+    padding: 10px;
+    border: 1px solid white;
+}
+.contact-us a img {
+    width: 40px;
+    filter: invert();
+}
+
+.contact-us a:hover{
+    transform: translateY(-10px);
+}

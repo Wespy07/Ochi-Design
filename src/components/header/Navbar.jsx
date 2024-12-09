@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Dropdown from '../dropdown/Dropdown'
+import { NavLink } from 'react-router'
 
 function Navbar() {
 
@@ -14,20 +15,21 @@ function Navbar() {
             <nav className='max-w-[1800px] mx-auto relative'>
                 <div className='mt-[24px] mx-[64px] flex items-center justify-between text-[18px]'>
                     <div className='w-[50%] flex'>
-                        <a href="/">
-                            <img src="logo.svg" alt="" />
-                        </a>
+                        <NavLink to={'/'} href="/">
+                            <img src="logo.svg" />
+                        </NavLink>
                     </div>
 
                     <div className='max-lg:hidden w-[40%] flex gap-5 justify-center'>
-                        <a className='underline-hover' href="/">Services</a>
-                        <a className='underline-hover' href="/">Our Work</a>
-                        <a className='underline-hover' href="/">About Us</a>
-                        <a className='underline-hover' href="/">Insights</a>
+
+                        <NavLink to={'/services'} className={({ isActive }) => isActive ? "underline-hover text-[#cdea68]" : "underline-hover text-white"} href="/">Services</NavLink>
+                        <NavLink to={'/our-work'} className={({ isActive }) => isActive ? "underline-hover text-[#cdea68]" : "underline-hover text-white"} href="/">Our Work</NavLink>
+                        <NavLink to={'/about-us'} className={({ isActive }) => isActive ? "underline-hover text-[#cdea68]" : "underline-hover text-white"} href="/">About Us</NavLink>
+                        <NavLink to={'/insights'} className={({ isActive }) => isActive ? "underline-hover text-[#cdea68]" : "underline-hover text-white"} href="/">Insights</NavLink>
                     </div>
 
                     <div className='max-lg:hidden w-[10%] ml-10 flex'>
-                        <a className='underline-hover' href="/">Contact us</a>
+                        <NavLink to={'/contact-us'} className={({ isActive }) => isActive ? "underline-hover text-[#cdea68]" : "underline-hover text-white"} href="/">Contact us</NavLink>
                     </div>
 
                     <div>
