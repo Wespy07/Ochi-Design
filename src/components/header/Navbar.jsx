@@ -12,8 +12,8 @@ function Navbar() {
 
     return (
         (dropdown === true ? < Dropdown setDropdown={setDropdown} dropdown={dropdown} /> : <>
-            <nav className='max-w-[1800px] mx-auto relative'>
-                <div className='mt-[24px] mx-[32px] flex items-center justify-between text-[18px]'>
+            <nav className='mt-[24px] max-w-[1800px] mx-auto relative top-0'>
+                <div className='mx-[32px] flex items-center justify-between text-[18px]'>
                     <div className='w-[50%] flex'>
                         <NavLink to={'/'} href="/">
                             <img src="logo.svg" />
