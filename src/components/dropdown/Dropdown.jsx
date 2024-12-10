@@ -13,7 +13,7 @@ function Dropdown({ dropdown, setDropdown }) {
         <nav>
             <div className='bg-[#161616] dropdown-container'>
                 <div>
-                    <div className='bg-[#161616] flex items-center justify-between px-[64px] pt-[24px] pb-[40px] fixed z-[999] w-full top-0 border-b-[1px] border-white'>
+                    <div className='bg-[#161616] flex items-center justify-between px-[32px] pt-[24px] pb-[40px] fixed z-[999] w-full top-0 border-b-[1px] border-white'>
                         <NavLink href="/"><img src="logo.svg" /></NavLink>
                         <i onClick={() => handleClick()} className="fa-solid fa-xmark text-[30px]"></i>
                     </div>
