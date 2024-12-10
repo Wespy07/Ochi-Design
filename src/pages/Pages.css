@@ -1,6 +1,6 @@
 .about-us, .services, .our-work, .insights, .contact-us{
     font-family: 'grotesk', 'Roboto', 'Poppins';
-    font-size: 150px;
+    font-size: 110px;
     cursor: default;
 }
 .insights, .our-work, .services {
